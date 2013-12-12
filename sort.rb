@@ -29,5 +29,3 @@ def insert_sort(arr)
   return arr
 end
 
-arr = [2,5,4,8,1,9,6]
-insert_sort(arr)
