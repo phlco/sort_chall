@@ -28,4 +28,16 @@ describe "Sort" do
     expect(a[i]).to be <=(stack_overflow_sort(a).last)
   end
 
+  it "expects item[i] to be start with an earlier letter then last item" do
+    a = ["aunt", "banana", "giant", "zoo", "frank", "eagle", "peas"]
+    i=0
+    expect(a[i]).to be <=(stack_overflow_sort(a).last)
+  end
+
+  # it "expects item[i] to be start with an earlier letter then last item" do
+  #   a = ["aunt", 1, "banana", 55, "giant", 22, "zoo", 11, "frank", 10, "eagle", 7, "peas", 100]
+  #   i=0
+  #   expect(a[i]).to be <=(stack_overflow_sort(a).last)
+  # end
+
 end
