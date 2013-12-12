@@ -6,5 +6,5 @@ before_script:
   - "export DISPLAY=:99.0"
   - "export JASMINE_SPEC_FORMAT=documentation"
 script:
-  - "bundle exec rake rspec"
+  - "bundle exec rspec"
   - "bundle exec rake jasmine:ci"
