@@ -1,4 +1,4 @@
-def num_sort(array)
+def sort(array)
   array.each_with_index do |num, index|
     # sets
     if array[index+1] == nil then
@@ -10,7 +10,7 @@ def num_sort(array)
       # this puts the latter number in the first position
       array[index] = smaller_number
       array[index + 1] = num
-      num_sort(array)
+      sort(array)
     end
   end
 
