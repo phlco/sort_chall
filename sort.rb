@@ -1,7 +1,7 @@
 require 'pry'
 
-# numbers = []
-# 20.times{numbers << rand(1..10000)}
+numbers = []
+20.times{numbers << rand(1..10000)}
 
 
 
