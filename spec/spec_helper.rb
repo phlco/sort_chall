@@ -16,5 +16,3 @@ RSpec.configure do |config|
   config.order = 'random'
 end
 
-# Remove sort method
-class Array;def sort;self;end;def sort!;self;end;def sort_by!;self;end;end
