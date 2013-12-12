@@ -16,8 +16,8 @@ describe "Sort" do
     expect(a.class).to eq(stack_overflow_sort(a).class)
   end
 
-  it "expects item[i] to be smaller than item[i+1]" do
-    a = [1,2,3,7,9]
+  it "expects item[i] to be less than or equal to item[i+1]" do
+    a = [1,2,3,7,9,22,55,12,34]
     i=0
     expect(a[i]).to be <=(stack_overflow_sort(a).first)
   end

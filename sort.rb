@@ -31,6 +31,7 @@
 
 
 def stack_overflow_sort(list)
+  new_list = list
   # this is a tiny list that needs no sorting
   return list if list.size <= 1 # already sorted
   # sets a default for the while loop
@@ -39,13 +40,13 @@ def stack_overflow_sort(list)
     # sets the list to false to see if it's done
     swapped = false
     # sets this to recursively work out the sort for any length
-    0.upto(list.length-2) do |i|
-      if list[i] > list[i+1]
-        list[i], list[i+1] = list[i+1], list[i] # swap values
+    0.upto(new_list.length-2) do |i|
+      if new_list[i] > new_list[i+1]
+        new_list[i], new_list[i+1] = new_list[i+1], new_list[i] # swap values
         swapped = true
       end
     end
   end
 
-  list
+  new_list
 end
