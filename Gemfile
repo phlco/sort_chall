@@ -4,3 +4,4 @@ source "https://rubygems.org"
 # Tests
 gem 'rspec'
 gem 'jasmine'
+gem 'pry'
