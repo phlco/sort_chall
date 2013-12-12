@@ -21,3 +21,7 @@ or
 Write your test in the corresponding Javascript or Ruby `sort_spec` file.
 
 Then spend 30 minutes implementing your code in the corresponding `sort` file.
+
+Issue a pull request when you're finished or at the end of 30 minutes.
+
+If you finish early, try sorting in the other language.
